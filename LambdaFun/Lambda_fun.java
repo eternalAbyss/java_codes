@@ -32,7 +32,7 @@ class A implements iA {
     }
 }
 
-public class Lambda
+public class Lambda_fun
 {
 	public static void main(String[] args) {
 	    A ob = new A();
