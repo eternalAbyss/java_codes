@@ -69,5 +69,6 @@ class MyPool {
     MyPool sharedPool = new MyPool();
     MyProducer p = new MyProducer(sharedPool);
     MyConsumer c = new MyConsumer(sharedPool);
+    System.out.println(p + " " + c);
     }
     }
